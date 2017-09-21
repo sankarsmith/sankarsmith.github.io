@@ -86,6 +86,7 @@
 <h1 class="center" id="headline">
   Voice Translation </h1>
   <p class="center"> It translate the speech input to English Voice Output.</p>
+ <p class="center"><a href="https://github.com/sankarsmith/voicetranslation/" class="center"> Download From GitHub</a></p>
 </head>
 <body>
 <div id="info">
