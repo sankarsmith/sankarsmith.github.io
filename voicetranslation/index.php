@@ -307,14 +307,15 @@ if (!('webkitSpeechRecognition' in window)) {
     final_span.innerHTML = linebreak(final_transcript);
     $("#googletranslate").html(final_transcript);
     if($("#googletranslate").html()!="") {
-      for(var i = 0, len = document.links.length; i < len; i += 1) {
-          if(document.links[i].textContent === "Translate") {
-              document.links[i].click();
-          } else if(document.links[i].textContent === "Show original") {
-            document.links[i].click();
-            document.links[i].click();
-          }
-      }
+//      tempcmt
+//       for(var i = 0, len = document.links.length; i < len; i += 1) {
+//           if(document.links[i].textContent === "Translate") {
+//               document.links[i].click();
+//           } else if(document.links[i].textContent === "Show original") {
+//             document.links[i].click();
+//             document.links[i].click();
+//           }
+//       }
     }
     interim_span.innerHTML = linebreak(interim_transcript);
     if (final_transcript || interim_transcript) {
